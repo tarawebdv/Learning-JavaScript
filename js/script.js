@@ -14,8 +14,11 @@ alert(Remainder);
 */
 
 // exercise
-var a = prompt ("firstnumber");
-var b = prompt ("secondnumber");
+var A = prompt ("firstnumber");
+var B = prompt ("secondnumber");
+
+var a = +A
+var b = +B
 
 var plus = a + b
 var minus = a - b
@@ -24,7 +27,7 @@ var multiplication = a * b
 var exponent = a ** b 
 var Remainder = a % b
 
-alert(Remainder);
+alert(plus);
 
 
 
