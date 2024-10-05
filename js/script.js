@@ -1,33 +1,13 @@
-/*
-var A = 58
-var B = 12
-var C = 23
+var str= "javascript"
+var str1 = "learning"
+var num1 = 12
+var num2 = 5
 
-var plusresulte = A + B // 58 + 12
-var minusResulte = A - C - B // 58 - 23 - 12 
-var divisionResulte = A / B   // 58 / 12
-var multiplication = B * C * A   // 12*23*58
-var exponent = C ** A  // 23 * 23 * 23 * 23 * 23 ...
-var Remainder = A % B   
+// alert(str - num2)   // NAN =Not A Number
+// alert(typeof NaN)
+// alert("15" + 5)  //= NAN
+// alert("15" / 5)  //= 3
 
-alert(Remainder);
-*/
-
-// exercise
-var A = prompt ("firstnumber");
-var B = prompt ("secondnumber");
-
-var a = +A
-var b = +B
-
-var plus = a + b
-var minus = a - b
-var division = a / b
-var multiplication = a * b
-var exponent = a ** b 
-var Remainder = a % b
-
-alert(plus);
-
-
-
+// alert(isNaN(str/num2))  // true
+// alert(isNaN(str/str1))  // true
+alert(isNaN(num1/num2))  // false
