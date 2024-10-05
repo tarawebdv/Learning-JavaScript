@@ -1,16 +1,9 @@
-// if
-var num1 = 12
-var num2 = 5
-var num3 = 10
-var num4 = 2
+//Receive a number from the user and show the user whether it is even or odd
 
-var str1 = "5"
-var str2 = "6"
- 
-if (num3 / num4 === num1) {
-
-    alert( "yes, is equal")
+var user = prompt("Please enter a number")
+var usernum = +user
+if (usernum % 2 === 0) {
+    alert("The number is even")
+} else {
+    alert("The number is odd")
 }
- else {
-    alert("No Is Not Equal")
- }
