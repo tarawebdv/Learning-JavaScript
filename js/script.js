@@ -1,10 +1,11 @@
-//Get three numbers from the user and calculate their average and show it to the user
+//Get the user's age.
+// If the user's age is less than 18, show him the message "You are not allowed to enter" and otherwise show the message "Log in to the panel".
 
-var num1 = Number(prompt("Please enter first number"))
+var age = Number(prompt("Please enter your age :"))
+if(age < 18) {
+    alert("You are not allowed to enter")
+} 
+ else {
+    alert("Log in to the panel")
+}
 
-var num2 = Number(prompt("Please enter second number"))
-
-var num3 = Number(prompt("Please enter third number"))
-
- var average = (num1 + num2 + num3) / 3
- alert("The average of " + num1 + ", " + num2 + " and " + num3 + " is " + average)
