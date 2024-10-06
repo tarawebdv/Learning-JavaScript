@@ -1,11 +1,6 @@
-//Get the user's age.
-// If the user's age is less than 18, show him the message "You are not allowed to enter" and otherwise show the message "Log in to the panel".
+//Receive two numbers from the user and multiply the first number to the power of the second and display the result
+var num1 = Number(prompt("Please enter your first Number :"))
+var num2 = Number(prompt("Please enter your second Number :"))
 
-var age = Number(prompt("Please enter your age :"))
-if(age < 18) {
-    alert("You are not allowed to enter")
-} 
- else {
-    alert("Log in to the panel")
-}
-
+var exponent = num1 ** num2
+alert(exponent )
