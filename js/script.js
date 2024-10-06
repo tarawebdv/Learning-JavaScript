@@ -1,6 +1,17 @@
-//Receive two numbers from the user and multiply the first number to the power of the second and display the result
-var num1 = Number(prompt("Please enter your first Number :"))
-var num2 = Number(prompt("Please enter your second Number :"))
+//Get the user's date of birth and calculate and display his age
+var BirthDate = Number(prompt("Please enter your BirthDate :" , 1990))
+if (BirthDate < 2024 ){
+    var yourAge = 2024 - BirthDate
+}
+else{
+    alert("Date of birth entered is not valid")
+}
 
-var exponent = num1 ** num2
-alert(exponent )
+if (isNaN(yourAge)) {
+    alert("Date of birth entered is not valid")
+}
+else{
+alert("your age is " + yourAge)
+}
+
+
