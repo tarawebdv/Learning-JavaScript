@@ -1,15 +1,21 @@
-// Get age and gender from the user.
-// If the gender of the user is female or the age is less than 18, it will display an error
-// and otherwise show it permission to enter the panel
-
-var age = Number(prompt("Enter your age:" , 18));
-var gender = (prompt("Enter your gender: (male or female)?"))
-if(gender == 'male' || gender == 'female'){
-if (gender == "female" || age < 18){
-  alert("You are not allowed to enter the panel.");
+// &&  = And
+/*
+var num1 = 12
+var num2 = 3
+var num3 = 4
+if (num2+num3 ===num1 && num3**num2 ===num1) {
+    alert("it is 12")
+} else if (num2 === 3 && num1 === 5) {
+    alert("it is odd number")
+} else if (num1 === 6 && num3 === 2) {
+    alert("it is Not odd number")
 } else {
-    alert("Welcome to the panel!");
+    alert("Try again")
 }
-}else{
-    alert("Invalid gender entered. Please enter either male or female.");
-}
+*/
+///////////////////////////////////////////////////////////////
+
+var myboolean = true
+alert("myboolean : " + myboolean)
+alert("!myboolean : " + !myboolean)
+alert("!!myboolean : " + !!myboolean)
