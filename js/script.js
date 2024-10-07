@@ -1,17 +1,15 @@
-// Bitwise Operator
+// Get age and gender from the user.
+// If the gender of the user is female or the age is less than 18, it will display an error
+// and otherwise show it permission to enter the panel
 
-var num1 = 15
-var num2 = 5
-var num3= 3
-if (num3*num2 === 17 || num3*num1 ===65) {
-    alert("it is 65 or 17" )
-    
-} else if(num2+num3 < 10 || num2*num3 === num1) {
-    alert( "it is 10 or 15" )
-    
-} else if (num1+num3 === 8 || num2*num2 === num1) {
-    alert( "it is 8 or 25" )
-} else{
-    alert("false")
+var age = Number(prompt("Enter your age:" , 18));
+var gender = (prompt("Enter your gender: (male or female)?"))
+if(gender == 'male' || gender == 'female'){
+if (gender == "female" || age < 18){
+  alert("You are not allowed to enter the panel.");
+} else {
+    alert("Welcome to the panel!");
 }
-
+}else{
+    alert("Invalid gender entered. Please enter either male or female.");
+}
