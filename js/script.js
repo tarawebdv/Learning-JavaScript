@@ -1,17 +1,9 @@
-//Get the user's date of birth and calculate and display his age
-var BirthDate = Number(prompt("Please enter your BirthDate :" , 1990))
-if (BirthDate < 2024 ){
-    var yourAge = 2024 - BirthDate
-}
-else{
-    alert("Date of birth entered is not valid")
-}
+//Get a time in minutes from the user and convert it to hours and then display it
+var minutes = Number(prompt("Enter the time (minute) :" , 0))
+var hours = minutes / 60
 
-if (isNaN(yourAge)) {
-    alert("Date of birth entered is not valid")
+if (isNaN(hours)) {
+    alert("The entered value is not valid.");
+} else {
+    alert(hours + " hours");
 }
-else{
-alert("your age is " + yourAge)
-}
-
-
