@@ -1,9 +1,14 @@
-//Get a time in minutes from the user and convert it to hours and then display it
-var minutes = Number(prompt("Enter the time (minute) :" , 0))
-var hours = minutes / 60
-
-if (isNaN(hours)) {
-    alert("The entered value is not valid.");
-} else {
-    alert(hours + " hours");
+var num1 = 15
+var num2 = 23
+var num3= 34
+if (num1*num2+num3 === 660) {
+    alert("it is 66" )
+    
+} else if(num1*num2+num3 < 85) {
+    alert( "it is < 85" )
+    
+} else if (num1*num2+num3 < 855) {
+    alert( "it is > 855" )
+} else{
+    alert("false")
 }
